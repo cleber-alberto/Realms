@@ -2,8 +2,10 @@
 namespace Characters.Domain.Aggregates
 {
     public class Monster
+        : Character
     {
-        public Monster()
+        public Monster(string name, int life)
+            : base(name, life)
         {
         }
     }
